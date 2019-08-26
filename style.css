@@ -1,0 +1,212 @@
+@media screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+  }
+  .acContainer {
+    display: flex;
+  }
+  .openHour {
+    padding: 0 3em 0 0;
+  }
+  .igContainer {
+    display: block;
+  }
+  .igSmallContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .igContainer {
+    display: none;
+  }
+  .igSmallContainer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .bigFb {
+    display: none;
+  }
+  .smallFb {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bigFb {
+    display: block;
+  }
+  .smallFb {
+    display: none;
+  }
+}
+
+h2 {
+  font-family: Impact;
+}
+
+h3 {
+  font-family: Georgia;
+}
+
+.top {
+  height: 20%;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.link {
+  text-align: center;
+  background: linear-gradient(to right, rgb(25, 121, 121), rgb(167, 202, 202));
+  color: white;
+  padding: 0.7em;
+}
+a {
+  padding-right: 3em;
+  color: white;
+  font-family: arial black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topImage {
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+}
+
+.fb {
+  background: linear-gradient(to left, rgb(202, 229, 240), rgb(145, 213, 240));
+  text-align: center;
+}
+.fb iframe {
+  padding: 1em;
+}
+
+.fb h2 {
+  padding: 1em;
+  margin: 0;
+}
+
+.price {
+  background-color: rgb(186, 198, 221);
+  width: 100%;
+  text-align: center;
+}
+.price img {
+  width: 90%;
+  padding: 1em;
+}
+
+.price h2 {
+  padding: 1em;
+  margin: 0;
+}
+
+.main img {
+  width: 100%;
+  display: block;
+}
+
+.main p {
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.access {
+  background-color: rgb(182, 226, 197);
+  clear: both;
+}
+
+.ac {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}
+
+.access ol {
+  text-align: left;
+}
+.location {
+  width: 90%;
+  padding: 1em 2em;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+.openHour {
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  background-color: rgb(201, 199, 199);
+  margin: auto;
+}
+th {
+  width: 20em;
+  background-color: rgb(148, 148, 148);
+  color: white;
+}
+td {
+  width: 20em;
+  background-color: white;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+.map {
+  text-align: center;
+  padding: 1em;
+}
+
+.ig {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.footer {
+  text-align: center;
+}
+.footerImage {
+  background-color: rgb(236, 236, 236);
+}
+
+.footerImage img {
+  width: 10%;
+  text-align: center;
+}
+
+.footerImage p {
+  margin: 0;
+  font-size: 0.5em;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.link2 {
+  font-family: arial black;
+  background: linear-gradient(to right, rgb(25, 121, 121), rgb(167, 202, 202));
+  text-align: center;
+  padding: 0.2em 0;
+}
+
+.link2 a {
+  padding: 0 1em;
+}
