@@ -98,7 +98,7 @@ a:hover {
 }
 
 .price {
-  background: linear-gradient(to right, rgb(186, 198, 221), rgb(124, 156, 214)) ;
+  background: linear-gradient(to left, rgb(186, 198, 221), rgb(124, 156, 214)) ;
   width: 100%;
   text-align: center;
 }
