@@ -13,14 +13,13 @@ axios.get("instagram.php").then(instagram_data=>{
     // const gallery_data = instagram_data["data"]["media"]["data"];
   
     let photos = "";
-    const photo_length = 20;
+    const photo_length = 9;
     
     for(let i = 0; i < photo_length ;i++){
-
-      if(gallery_data[i].media_type === "IMAGE"){
+      if(gallery_data[i].media_type === "IMAGE" || gallery_data[i].media_type === "CAROUSEL_ALBUM"){
       photos += '<li class="gallery-item"><img class="igImage" src="' + gallery_data[i].media_url + '"></li>';
       }else{
-        photos += '<li class="gallery-item"><img class="igImage" src="' + gallery_data[i].thumbnail_url + '"></li>';
+        photos += '<li class="gallery-item"><video class="igImage" src="' + gallery_data[i].media_url + '"></video></li>';
       }
     } 
     console.log(photos);
