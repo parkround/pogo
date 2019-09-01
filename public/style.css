@@ -2,8 +2,12 @@ body{
     padding:0;
     margin:0;
 }
+
+iframe{
+  box-sizing: content-box;
+}
 @media screen and (min-width: 1000px) {
-  .container {
+  .c-container {
     display: flex;
   }
   .acContainer {
@@ -193,13 +197,40 @@ h3 {
 .gallery{
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 1em;
   padding: 0;
 }
 .gallery-item{
   flex: 1 1 33.333%;
-  -ms-flex: 1 1 33.333%;
   list-style: none;
+  z-index: 1;
+  overflow: hidden;
+  /* background: #eee; */
+  border:1px solid #eee;
+  box-sizing:border-box;
+  position: relative;
+}
+
+.gallery-item.video::before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  background-image: url(/image/icon_video.png);
+  background-size: cover;
+}
+
+.gallery-item.album::before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  background-image: url(/image/icon_album.png);
+  background-size: cover;
 }
 
 .footer {
