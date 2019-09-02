@@ -36,7 +36,7 @@ axios
           item.permalink
         }" target=”_blank”><video class="igImage" src="${
           item.media_url
-        }"></video></a></li>`;
+        }" playsinline></video></a></li>`;
       }
     });
     console.log(photos);
