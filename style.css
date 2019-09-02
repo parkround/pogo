@@ -22,6 +22,10 @@ iframe{
   .igSmallContainer {
     display: none;
   }
+  .openHour {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -31,6 +35,12 @@ iframe{
   .igSmallContainer {
     display: block;
   }
+  
+  .openHour {
+    width: 80%;
+    margin: auto;
+  }
+  
 }
 
 @media screen and (max-width: 599px) {
@@ -40,6 +50,20 @@ iframe{
   .smallFb {
     display: block;
   }
+
+  .location {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+  }
+  a {
+    font-size:small;
+    padding-right: 1em;
+    color: white;
+    font-family: arial black;
+    text-decoration: none;
+  }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -49,6 +73,28 @@ iframe{
   .smallFb {
     display: none;
   }
+  .location {
+    width: 90%;
+    padding: 1em 2em;
+    margin: auto;
+  }
+  a {
+    padding-right: 3em;
+    color: white;
+    font-family: arial black;
+    text-decoration: none;
+  }
+  
+}
+
+
+
+
+
+.card {
+  background-color: white;
+  padding: 1em 2em;
+  margin: 1em;
 }
 
 h2 {
@@ -72,12 +118,7 @@ h3 {
   color: white;
   padding: 0.7em;
 }
-a {
-  padding-right: 3em;
-  color: white;
-  font-family: arial black;
-  text-decoration: none;
-}
+
 
 a:hover {
   text-decoration: underline;
@@ -144,22 +185,8 @@ a:hover {
 .access ol {
   text-align: left;
 }
-.location {
-  width: 90%;
-  padding: 1em 2em;
-  margin: auto;
-}
 
-.card {
-  background-color: white;
-  padding: 1em 2em;
-  margin: 1em;
-}
 
-.openHour {
-  width: 50%;
-  margin: auto;
-}
 
 table {
   background-color: rgb(201, 199, 199);
